@@ -27,7 +27,8 @@ namespace Bloglist.Services
             return blog;
         }
 
-        public void Update(string id, Blog blogIn) => _blogs.ReplaceOne(blog => blog.Id == id, blogIn);
+        public void Update(string id, Blog blogIn) =>
+            _blogs.ReplaceOne(blog => blog.Id == id, blogIn);
 
         public void Remove(Blog blogIn) => _blogs.DeleteOne(blog => blog.Id == blogIn.Id);
 

@@ -1,0 +1,10 @@
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+
+{
+  "Id": "123456789012345678901234",
+  "title": "ASP Blog",
+  "author": "Mr. C#",
+  "url": "https://www.asppppp.com",
+  "likes": 100
+}

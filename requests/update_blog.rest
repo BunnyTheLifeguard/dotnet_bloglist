@@ -1,0 +1,10 @@
+PUT http://localhost:5000/api/blogs/5ea2b974f99d7f6e713257e4
+Content-Type: application/json
+
+{
+"Id": "5ea2b974f99d7f6e713257e4",
+"title": "Thesis on Donuts",
+"author": "Homer J. Simpson",
+"url": "https://www.mhh-donuts.com",
+"likes": 1234
+}
